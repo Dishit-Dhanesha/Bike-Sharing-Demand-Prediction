@@ -8,7 +8,10 @@ from sklearn.preprocessing import StandardScaler
 #from src.logger import logging
 
 
-
+st.set_page_config(
+    page_title="My Bike Renting App",
+    layout="centered"
+)
 
 
 st.title(':blue[Bike Sharing Demand Prediction]')
